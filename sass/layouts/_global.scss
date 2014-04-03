@@ -1,0 +1,14 @@
+body {
+  background-color: $delta-scale-juliet;
+}
+
+.message-container {
+  margin: 1em auto;
+  width: 90%;
+  @media #{$tablet} {
+    width: 75%;
+  }
+  @media #{$desktop} {
+    width: 50%;
+  }
+}

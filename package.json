@@ -1,0 +1,31 @@
+{
+  "name": "node-sass",
+  "version": "0.1.0",
+  "private": "true",
+  "description": "This is a bare bones node app with Sass installed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Sass",
+    "libsass"
+  ],
+  "author": "Dale Sande",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~3.4.8",
+    "jade": "~1.2.0",
+    "grunt": "~0.4.2",
+    "grunt-sass": "~0.11.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-cli": "~0.1.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/grunt"
+  }
+}

@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title This is a project title
+    meta(name='description', content='My new project description')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black-translucent')
+    link(rel='stylesheet', href='stylesheets/application.css')
+  body
+    section.message-container
+      h1.title Contact me
+      form#form.form(action="#" method="get")
+        ul
+          li
+            label(for="name") Your Name:
+            input(type="text" placeholder="Your Name" name="name" tab-index="1")
+          li
+            label(for="email") Your Email:
+            input(type="email" placeholder="Your email" name="email" tab-index="2")
+          li
+            label(for="message") Message:
+            textarea(placeholder="Message ..." id="message" name="message" tab-index="3")
+        button Send Message
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
+    script(src="javascript/app.js")
+    script(src='//localhost:35729/livereload.js')
