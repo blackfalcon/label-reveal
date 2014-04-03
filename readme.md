@@ -1,3 +1,5 @@
 # Steps used to create this project
 
-## NEEDS TO BE WRITTEN
+#### WRITE ALL THE THINGS
+
+![image](https://raw.githubusercontent.com/blackfalcon/label-reveal/master/assets/example-image.png)
