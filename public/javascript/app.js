@@ -24,3 +24,5 @@ $('.form li').find('input, textarea').on('keyup', function(){
         parent.removeClass('js-hide-label');
     }
 });
+
+
